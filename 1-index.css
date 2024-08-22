@@ -408,7 +408,7 @@ header nav ul{
 }
 .app-container {
     /* background-color: linear-gradient(#ffe4e8 100%,#9d8fa2 35%,#ffe4e8 100%); */
-    background-image: url("bgg2.jpg");
+    background-image: url("images/bgg2.jpg");
     background-size: cover;
     /* background: rgba(255, 255, 255, 0.9);  */
     margin-top: 90PX;
