@@ -8,6 +8,9 @@ let other_1 = null;
 let other_2 = null;
 let other_3 = null;//////////////
 
+
+
+
 next.onclick = () => {
     carousel.classList.remove('prev');
     carousel.classList.add('next');
@@ -18,6 +21,9 @@ next.onclick = () => {
     changeSlider();
 }
 
+
+
+
 prev.onclick = () => {
     carousel.classList.remove('next');
     carousel.classList.add('prev');
@@ -26,6 +32,8 @@ prev.onclick = () => {
     other_2 = other_1 + 1 >= countItem ? 0 : other_1 + 1;
     other_3 = other_2 + 1 >= countItem ? 0 : other_2 + 1;///////////////
     changeSlider();
+
+
 
 }
 const changeSlider = () => {
@@ -48,6 +56,8 @@ const changeSlider = () => {
         e.querySelector('.image img').style.animation = '';
         e.querySelector('.image figcaption').style.animation = '';
     })
+
+
 
     items[active].classList.add('active');
     items[other_1].classList.add('other_1');
