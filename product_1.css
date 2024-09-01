@@ -32,12 +32,14 @@ body{
     --item5-opacity: 0;
 }
 header{
+    /* margin-bottom: 200px; */
     width: 1140px;
     max-width: 90%;
     display: flex;
     justify-content: space-between;
     margin: auto;
-    height: 50px;
+    /* height: 50px; */
+    height:50px;
     align-items: center;
 }
 
@@ -503,16 +505,19 @@ footer {
   .footer-lists li {
     /* margin-bottom: 10px; */
   }
+
   
   .footer-lists a {
     text-decoration: none;
     color: hsl(0, 0%, 100%);
   }
   
+
+  
+  
   .footer-lists a:hover {
     color: hsl(0, 0%, 100%);
   }
-  
   /* Attribution Styles */
   .attribution {
     font-size: 11px;
@@ -552,6 +557,27 @@ footer {
     height: 500px;
     margin-top: 1100px;
 } */
+
+/* 
+
+.introduce{
+    margin-bottom: 100px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
