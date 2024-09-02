@@ -4,22 +4,13 @@ let carousel = document.querySelector('.carousel');
 let listHTML = document.querySelector('.carousel .list');
 let seeMoreButtons = document.querySelectorAll('.seeMore');
 let backButton = document.getElementById('back');
-
-
-
-
-
 nextButton.onclick = function(){
     showSlider('next');
 }
-
 prevButton.onclick = function(){
     showSlider('prev');
 }
-
 let unAcceppClick;
-
-
 const showSlider = (type) => {
     nextButton.style.pointerEvents = 'none';
     prevButton.style.pointerEvents = 'none';
@@ -46,7 +37,7 @@ seeMoreButtons.forEach((button) => {
         carousel.classList.remove('next', 'prev');
         carousel.classList.add('showDetail');
     }
-    
+
 });
 backButton.onclick = function(){
     carousel.classList.remove('showDetail');
