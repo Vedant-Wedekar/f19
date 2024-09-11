@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#page-1{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    padding: 0 2vw;
+    padding-top: 17vh;
+    /* background-color: aqua; */
+}
+#page-1 h1{
+    color: rgb(134, 219, 250);
+    text-transform: uppercase;
+    font-size: 10vw;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* text-shadow: rgb(151, 202, 193) 1px 0 10px; */
+    line-height: 9vw;
+    letter-spacing: -2px  ;
+}
+#video-container{
+    height: 100vh;
+    width: 100%;
+    background-color: beige;
+
+}
