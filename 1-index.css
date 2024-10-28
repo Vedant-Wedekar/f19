@@ -5,7 +5,7 @@ body{
     font-family: Poppins;
     margin: 0;
     font-size: 16px;
-    background-color: #fbe5fb;
+    background-color: #ffffff;
 }
 .rr{
     font-size: 20px;
@@ -46,20 +46,32 @@ footer{
 }
 .footer-content {
     margin-top: 200PX;
-    min-height: 1444PX;
+    min-height: 404PX;
     
-    max-width: 1440px;
+    max-width: 100%;
     /* margin: 0 auto; */
     text-align: center;
   }
   
   .footer-lists {
     color: #000;
-    margin-left: 300px;
+    /* margin-left: ; */
     display: flex;
-    justify-content:space-between;
+    justify-content:space-around;
     /* gap: 50px; */
     margin-bottom: 100px;
+  }
+  .fc{
+    display: flex;
+    justify-content: center;
+  }
+  .box{
+    margin-top: 100px;
+    height: 400px;
+    width: 100%;
+    background-color: rgb(250, 203, 223);
+   
+    
   }
   
   .footer-lists ul {
@@ -73,11 +85,11 @@ footer{
   
   .footer-lists a {
     text-decoration: none;
-    color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 0%);
   }
   
   .footer-lists a:hover {
-    color: hsl(0, 5%, 38%);
+    color: hsl(0, 0%, 100%);
   }
   
   /* Attribution Styles */
@@ -411,7 +423,7 @@ header nav ul{
     background-image: url("images/bgg2.jpg");
     background-size: cover;
     /* background: rgba(255, 255, 255, 0.9);  */
-    margin-top: 90PX;
+    margin-top: 110PX;
     margin-left: 100px;
     margin-bottom: 100px;
     width: 450px;
@@ -419,7 +431,7 @@ header nav ul{
     color: #000000;
     text-align: center;
     padding: 20px;
-    height: 500PX;
+    height: 400PX;
     /* background: #fff; */
     border: 2px solid #ccc;
     /* backdrop-filter: blur(20px); */
@@ -427,7 +439,6 @@ header nav ul{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     cursor: pointer;
 }
-
 /* .sign{
     font-weight: 500;
     font-size: 25px;
@@ -469,11 +480,7 @@ header nav ul{
 .sign:hover {
     box-shadow: 0 0 10px #ff0000b5;
 }
-
-
-               /*  */
-               
-               
+ 
 .magic-effect {
     display: none;
     position: absolute;
@@ -533,4 +540,19 @@ a {
 .for{
     color: #000;
     font-size: 10px;
+}
+
+
+
+/* 
+.low{
+    margin-top: 300px;
+} */
+.tit-1{
+    height: 400px;
+    /* display: grid; */
+    font-size: 50px;
+    color: #000;
+    font-weight: 600;
+    font-style: italic;
 }
