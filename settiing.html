@@ -1,0 +1,93 @@
+<html>
+ <head>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+    .half-circle-left {
+      width: 15%;
+      height: 75vh;
+      background-color: #FECACA; /* Tailwind's pink-200 */
+      border-top-right-radius: 100%;
+      border-bottom-right-radius: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+    .half-circle-right {
+      width: 15%;
+      height: 75vh;
+      background-color: #FECACA; /* Tailwind's pink-200 */
+      border-top-left-radius: 100%;
+      border-bottom-left-radius: 100%;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .profile-container {
+      width: 100%;
+      height: 75vh;
+      background-color: #FECACA; /* Tailwind's pink-200 */
+      border-bottom-left-radius: 100%;
+      border-bottom-right-radius: 100%;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  </style>
+ </head>
+ <body class="bg-white flex flex-col items-center justify-center min-h-screen relative">
+  <div class="half-circle-left"></div>
+  <div class="half-circle-right"></div>
+  <div class="profile-container">
+   <div class="absolute top-4 left-4">
+    <i class="fas fa-home text-black text-2xl"><a href="dd4e36.html">.</a></i>
+   </div>
+   <div class="absolute top-4 right-4">
+    <i class="fas fa-ellipsis-v text-black text-2xl"></i>
+   </div>
+   <img alt="Profile picture of a person taking a selfie in a mirror" class="rounded-full w-24 h-24 object-cover border-4 border-white" height="100" src="BAPPA SS.jpg" width="100"/>
+   <h1 class="text-pink-600 text-xl font-semibold mt-4">Vedant Wedekar</h1>
+   <p class="text-gray-600">vedantwedekar@gmail.com | +919578375463</p>
+  </div>
+  <div class="w-full max-w-md z-10 mt-8 space-y-4">
+   <div class="bg-white rounded-lg shadow-md p-4">
+    <div class="flex items-center space-x-4">
+     <i class="fas fa-user text-black text-xl"></i>
+     <span class="text-black text-lg">Edit Profile</span>
+    </div>
+   </div>
+   <div class="bg-white rounded-lg shadow-md p-4">
+    <div class="flex items-center space-x-4">
+     <i class="fas fa-bell text-black text-xl"></i>
+     <span class="text-black text-lg">Notification</span>
+    </div>
+   </div>
+   <div class="bg-white rounded-lg shadow-md p-4">
+    <div class="flex items-center space-x-4">
+     <i class="fas fa-language text-black text-xl"></i>
+     <span class="text-black text-lg">Language</span>
+    </div>
+   </div>
+   <div class="bg-white rounded-lg shadow-md p-4">
+    <div class="flex items-center space-x-4">
+     <i class="fas fa-palette text-black text-xl"></i>
+     <span class="text-black text-lg">Theme</span>
+    </div>
+   </div>
+   <div class="bg-white rounded-lg shadow-md p-4">
+    <div class="flex items-center space-x-4">
+     <i class="fas fa-envelope text-black text-xl"></i>
+     <span class="text-black text-lg">Contact Us</span>
+    </div>
+   </div>
+   <div class="bg-white rounded-lg shadow-md p-4">
+    <div class="flex items-center space-x-4">
+     <i class="fas fa-lock text-black text-xl"></i>
+     <span class="text-black text-lg">Privacy</span>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
