@@ -1,0 +1,337 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Edit Profile
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+     background: linear-gradient(to right, #f1999c, #fad0c4, #9abffc);
+   }
+   .blur-bg {
+     backdrop-filter: blur(10px);
+     background: rgba(255, 255, 255, 0.2);
+   }
+   .clickable {
+     transition: transform 0.3s ease-in-out;
+   }
+   .clickable:active {
+     transform: scale(0.98);
+   }
+  </style>
+ </head>
+ <body class="bg-transparent">
+  <div class="flex">
+   <!-- Sidebar -->
+   <div class="w-1/6 h-screen p-4 blur-bg">
+    <div class="flex items-center justify-center mb-6">
+      <img src="logo-1-removebg-preview.png">
+     </i>
+    </div>
+    <ul>
+     <li class="mb-4">
+      <a class="flex items-center text-pink-500 clickable" href="#">
+       <i class="fas fa-user mr-2">
+       </i>
+       <span>
+        Profile
+       </span>
+      </a>
+     </li>
+     <li class="mb-4">
+      <a class="flex items-center text-gray-500 clickable" href="dd4e36.html">
+       <i class="fas fa-home mr-2">
+       </i>
+       <span>
+       <a> Home</a>
+       </span>
+      </a>
+     </li>
+     <li class="mb-4">
+      <a class="flex items-center text-gray-500 clickable" href="#">
+       <i class="fas fa-cog mr-2">
+       </i>
+       <span>
+        Settings
+       </span>
+      </a>
+     </li>
+    </ul>
+   </div>
+   <!-- Main Content -->
+   <div class="w-5/6 p-8">
+    <div class="flex justify-between items-center mb-8">
+     <div class="text-gray-500">
+      <span class="text-lg">
+       My profile
+      </span>
+      &gt;
+      <span class="text-lg font-semibold">
+       Edit Profile
+      </span>
+     </div>
+     <div class="flex items-center">
+      <input class="border rounded-lg px-4 py-2 mr-4 clickable" placeholder="Type in to Search..." type="text"/>
+      <div class="flex items-center">
+       <img alt="User profile picture" class="rounded-full w-10 h-10 mr-2" height="40" src="BAPPA SS.jpg" width="40"/>
+       <span class="text-gray-700">
+        Vedant Wedekar
+       </span>
+      </div>
+     </div>
+    </div>
+    <div class="p-8 rounded-lg shadow-md blur-bg">
+     <div class="flex items-center mb-8">
+      <img alt="Profile picture" class="rounded-full w-24 h-24 mr-4" height="100" src="BAPPA SS.jpg" width="100"/>
+      <div>
+       <button class="bg-pink-300 text-white px-4 py-2 rounded-lg clickable">
+        Save
+       </button>
+       <button class="text-gray-500 ml-4 clickable">
+        Cancel
+       </button>
+      </div>
+     </div>
+     <div class="grid grid-cols-2 gap-8">
+      <div>
+       <div class="mb-4">
+        <label class="block text-gray-700">
+         First Name
+        </label>
+        <input class="border rounded-lg px-4 py-2 w-full clickable" type="text" value="Vedant"/>
+       </div>
+       <div class="mb-4">
+        <label class="block text-gray-700">
+         Last Name
+        </label>
+        <input class="border rounded-lg px-4 py-2 w-full clickable" type="text" value="Wedekar"/>
+       </div>
+       <div class="mb-4">
+        <label class="block text-gray-700">
+         Password
+        </label>
+        <div class="flex items-center">
+         <input class="border rounded-lg px-4 py-2 w-full clickable" type="password" value="********"/>
+         <button class="text-pink-500 ml-4 clickable">
+          CHANGE PASSWORD
+         </button>
+        </div>
+       </div>
+       <div class="mb-4">
+        <label class="block text-gray-700">
+         Email
+        </label>
+        <input class="border rounded-lg px-4 py-2 w-full clickable" type="email" value="vedantwedekar@gmail.com"/>
+       </div>
+       <div class="mb-4">
+        <label class="block text-gray-700">
+         Phone
+        </label>
+        <input class="border rounded-lg px-4 py-2 w-full clickable" type="text" value="9325255759"/>
+       </div>
+       <div class="mb-4">
+        <label class="block text-gray-700">
+         Address
+        </label>
+        <input class="border rounded-lg px-4 py-2 w-full clickable" type="text" value="Plot no-116 Shikshak Colony , Dighori , Nagpur-4400?? , Maharashtra"/>
+       </div>
+       <div class="mb-4">
+        <label class="block text-gray-700">
+         Nation
+        </label>
+        <input class="border rounded-lg px-4 py-2 w-full clickable" type="text" value="India"/>
+       </div>
+      </div>
+      <div>
+       <div class="mb-4">
+        <label class="block text-gray-700">
+         Gender
+        </label>
+        <select class="border rounded-lg px-4 py-2 w-full clickable">
+         <option>
+          Male
+         </option>
+         <option>
+          Female
+         </option>
+         <option>
+          Other
+         </option>
+        </select>
+       </div>
+       <div class="mb-4">
+        <label class="block text-gray-700">
+         Language
+        </label>
+        <select class="border rounded-lg px-4 py-2 w-full clickable">
+         <option>
+          English
+         </option>
+         <option>
+         Marathi
+         </option>
+         <option>
+          Hindi
+         </option>
+        </select>
+       </div>
+       <div class="mb-4">
+        <label class="block text-gray-700">
+         Date of Birth
+        </label>
+        <div class="flex">
+         <select class="border rounded-lg px-4 py-2 mr-2 clickable">
+             <option>
+           October
+          </option>
+          <option>
+           September
+          </option>
+          <option>
+           November
+          </option>
+          <option>
+            December
+           </option>   
+           <option>
+            January
+           </option> 
+             <option>
+            Feb
+           </option>   
+           <option>
+            March
+           </option>  
+            <option>
+            April
+           </option>   
+           <option>
+           May
+           </option>  
+            <option>
+            June
+           </option>  
+            <option>
+            July
+           </option>  
+            <option>
+            Augest
+           </option>
+         </select>
+         <select class="border rounded-lg px-4 py-2 mr-2 clickable">
+          <option>
+           5
+          </option>
+          <option>
+           6
+          </option>
+          <option>
+           more
+          </option>
+         </select>
+         <select class="border rounded-lg px-4 py-2 clickable">
+          <option>
+         2005
+          </option>
+          <option>
+            2006
+             </option>
+             <option>
+              2007
+               </option>
+               <option>
+                2008
+                 </option>
+                 <option>
+                  2009
+                   </option>
+                   <option>
+                    2010
+                     </option>
+                     <option>
+                      2011
+                       </option>
+                       <option>
+                        2012
+                         </option>
+                         <option>
+                          soon on
+                           </option>
+                          
+
+         </select>
+        </div>
+       </div>
+       <div class="mb-4">
+        <label class="block text-gray-700">
+         Twitter
+        </label>
+        <input class="border rounded-lg px-4 py-2 w-full clickable" type="text" value="twitter.com/vedantwedekar"/>
+       </div>
+       <div class="mb-4">
+        <label class="block text-gray-700">
+         Linked In
+        </label>
+        <input class="border rounded-lg px-4 py-2 w-full clickable" type="text" value="linked.in/vedant-wedekar"/>
+       </div>
+       <div class="mb-4">
+        <label class="block text-gray-700">
+         Facebook
+        </label>
+        <input class="border rounded-lg px-4 py-2 w-full clickable" type="text" value="facebook.com/vedant wedekar"/>
+       </div>
+       <div class="mb-4">
+        <label class="block text-gray-700">
+         Google
+        </label>
+        <input class="border rounded-lg px-4 py-2 w-full clickable" type="text" value="vedant wedekar"/>
+       </div>
+       <div class="mb-4">
+        <label class="block text-gray-700">
+         Slogan
+        </label>
+        <input class="border rounded-lg px-4 py-2 w-full clickable" type="text" value="Nothing EREN"/>
+       </div>
+       <div class="mb-4">
+        <label class="block text-gray-700">
+         Payment Method
+        </label>
+        <div class="flex items-center mb-2">
+         <img alt="Visa card" class="mr-2" height="25" src="https://storage.googleapis.com/a1aa/image/HCJBib2JSYrDEdDCvcRQBjIx0q7MFdes3mruNCx5mgoA1o1JA.jpg" width="40"/>
+         <span class="text-gray-700">
+          Visa ... 8314
+         </span>
+         <span class="text-gray-500 ml-2">
+          Expires 06/24
+         </span>
+         <button class="text-red-500 ml-auto clickable">
+          REMOVE
+         </button>
+        </div>
+        <div class="flex items-center">
+         <img alt="Mastercard" class="mr-2" height="25" src="https://storage.googleapis.com/a1aa/image/r6HefPvUsYgPrEXn18W0PvpOSlcvz7t9fV4gW2KOtl6EUjWnA.jpg" width="40"/>
+         <span class="text-gray-700">
+          Master ... 8314
+         </span>
+         <span class="text-gray-500 ml-2">
+          Expires 07/24
+         </span>
+         <button class="text-red-500 ml-auto clickable">
+          REMOVE
+         </button>
+        </div>
+       </div>
+       <button class="bg-pink-300 text-white px-4 py-2 rounded-lg clickable">
+        ADD PAYMENT METHOD
+       </button>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

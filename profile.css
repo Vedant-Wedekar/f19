@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    width: auto;
+    height: 1000px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+    background-color: rgb(254, 170, 198);
+    border-radius: 0% 0% 30% 30%;
+}
+.icon{
+    margin-top: -70px;
+    gap: 200px;
+}
+.pro-pic{
+    margin-top: -80px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-left: 700px;
+    background-image:url("p.png");
+    background-size:cover;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-1 , .btn-2{
+    height: 300px;
+    width: 400px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+.set{
+    margin-top: 50px;
+    display: grid;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+display: grid;
+justify-content: center;
+align-content: center;
+text-align: center;
+}
+.btn-1{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.nc{
+    margin-top: -230px;
+}
+#nameInput:focus {
+    outline: none; /* Remove the outline on focus */
+    border-color: blue; /* Optional: Change border color when focused */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
