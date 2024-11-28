@@ -13,8 +13,8 @@ body{
     background-size: cover;
 }
 ::selection {
-    color: rgb(255, 255, 255);
-    background: rgb(255, 152, 195);
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
   }
   /* ::selection {
     background: linear-gradient(to right, #5fff87, #887bfe); /* Gradient background */
@@ -78,8 +78,9 @@ footer{
     margin-top: 100px;
 }
 .footer-content {
-    margin-top: 100PX;
-    min-height: 150PX;
+    padding-top: 100px;
+    /* margin-top: -1PX; */
+    min-height: 250PX;
     
     max-width: 100%;
     /* margin: 0 auto; */
@@ -708,7 +709,8 @@ a {
 .yr{
     font-family: "Edu AU VIC WA NT Pre", cursive;
 }
-.vk{
+/* .vk{
     background-image: url("abstract-grey-background-poster-with-dynamic-design-vector.jpg");
     background-size: cover;
-}
+} */
+ 
