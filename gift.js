@@ -10,6 +10,7 @@ nextButton.onclick = function(){
 }
 
 
+
 prevButton.onclick = function(){
     showSlider('rev');
 }
