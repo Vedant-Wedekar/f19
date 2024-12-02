@@ -9,12 +9,15 @@ body{
     background-color: #ffffff;
 }
 .nbg{
-    background-image: url("wp44649521.jpg");
+    background-image: url("bluebg.jpg");
     background-size: cover;
 }
 ::selection {
     color: rgb(0, 0, 0);
     background: rgb(255, 255, 255);
+  }
+  .up{
+    font-family: "Quicksand", sans-serif;
   }
   /* ::selection {
     background: linear-gradient(to right, #5fff87, #887bfe); /* Gradient background */
