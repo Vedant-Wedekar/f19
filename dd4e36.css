@@ -578,7 +578,6 @@ a {
 }
 
 
-
 /* 
 .low{
     margin-top: 300px;
@@ -618,8 +617,6 @@ a {
     /* font-family: "Pacifico", cursive; */
     font-family: 'Doto';
     font-weight: 900;
-
-
 }
 
 
@@ -668,13 +665,9 @@ a {
     }
   }
 /* .up-mu{
-
     display: flex;
-
 } */
-
 /* CSS for the thick line */
-
 .thick-linee {
 
     border: none;            /* Removes default border */
@@ -683,7 +676,6 @@ a {
     /* margin: 200px ;               Adjust margin if needed */
     margin-bottom: 250px;
 }
-
 .thick-line {
 
     border: none;            /* Removes default border */
@@ -692,11 +684,6 @@ a {
     /* margin: 200px ;               Adjust margin if needed */
     margin-top: 100px;
 }
-
-
-
-
-
 .line-foot{
     background-color: #ffffff;
     border: 2px solid black;
@@ -714,3 +701,6 @@ a {
     background-size: cover;
 } */
  
+.nf{
+    font-family: "Fira Sans", sans-serif;
+}

@@ -58,7 +58,7 @@ const changeSlider = () => {
     clearInterval(autoPlay);
     autoPlay = setInterval(() => {
         next.click();
-    }, 10000000);
+    }, 100000000);
 }
 let autoPlay = setInterval(() => {
     next.click();
