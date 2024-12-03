@@ -210,6 +210,7 @@ header nav ul{
 }
 
 .carousel .list::after{
+    
     position: absolute;
     top: 190px;
     left: 50px;
