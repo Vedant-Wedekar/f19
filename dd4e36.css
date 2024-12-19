@@ -9,7 +9,7 @@ body{
     background-color: #ffffff;
 }
 .nbg{
-    background-image: url("blue-waves-pattern-summer-lake-wave-water-flow-vector-21679452.jpg");
+    background-image: url("wp44649521.jpg");
     background-size: cover;
 }
 ::selection {
@@ -598,25 +598,34 @@ a {
     align-items: center;
 }
 .E1{
+    
+        color: white;
+        -webkit-text-stroke: 1px black;
+        text-shadow: 
+          1px 1px 0 black, 
+         -1px 1px 0 black, 
+          1px -1px 0 black, 
+         -1px -1px 0 black;
+      
     /* font-family: 'Datalegreya'; */
     /* font-family: 'Doto'; */
-    font-weight: normal;
+    /* font-weight: normal;
     font-style: normal;
     transition: transform .02s; /* Animation */
-    transition: color 0.3s ease, font-size 0.3s ease;
+    /* transition: color 0.3s ease, font-size 0.3s ease; */
 }
-.E1:hover{
+/* .E1:hover{
     transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
     /* font-family: "Pacifico", cursive; */ 
-    color: crimson;
+    /* color: crimson;
     font-size: 24px;
     font-family: "Playwrite FR Trad", cursive;
   font-optical-sizing: auto;
   font-weight: 600;
-  font-style: normal;
+  font-style: normal; */
   /* text-transform: uppercase; */
 
-}
+/* } */
 .f1{
     /* font-family: "Pacifico", cursive; */
     font-family: 'Doto';
