@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f5f5f5;
+        }
+        .payment-container {
+            text-align: center;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .qr-popup {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            justify-content: center;
+            align-items: center;
+        }
+        .qr-popup.active {
+            display: flex;
+        }
+        .qr-content {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            position: relative;
+        }
+        .qr-content img {
+            width: 200px;
+            height: 200px;
+            margin-bottom: 15px;
+        }
+        .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: red;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+        input[type="file"] {
+            margin: 15px 0;
+        }
+        button {
+            padding: 10px 20px;
+            border: none;
+            background: #4CAF50;
+            color: white;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="payment-container">
+        <h1>Complete Your Payment</h1>
+        <p>Click the button below to pay via UPI</p>
+        <button id="upiButton">Pay via UPI</button>
+
+        <!-- Screenshot Upload -->
+        <form id="paymentForm" enctype="multipart/form-data">
+            <h2>Upload Payment Screenshot</h2>
+            <input type="file" id="screenshotInput" accept="image/*" required />
+            <button type="submit">Submit Payment</button>
+        </form>
+    </div>
+
+    <!-- QR Popup -->
+    <div class="qr-popup" id="qrPopup">
+        <div class="qr-content">
+            <button class="close-btn" id="closePopup">X</button>
+            <h2>Scan to Pay</h2>
+            <img src="path-to-your-qr-code-image.jpg" alt="UPI QR Code" />
+        </div>
+    </div>
+
+    <script>
+        // Get elements
+        const upiButton = document.getElementById('upiButton');
+        const qrPopup = document.getElementById('qrPopup');
+        const closePopup = document.getElementById('closePopup');
+        const paymentForm = document.getElementById('paymentForm');
+        const screenshotInput = document.getElementById('screenshotInput');
+
+        // Show QR popup
+        upiButton.addEventListener('click', () => {
+            qrPopup.classList.add('active');
+        });
+
+        // Close QR popup
+        closePopup.addEventListener('click', () => {
+            qrPopup.classList.remove('active');
+        });
+
+        // Handle form submission
+        paymentForm.addEventListener('submit', (event) => {
+            event.preventDefault();
+            if (screenshotInput.files.length === 0) {
+                alert("Please upload a screenshot of your payment.");
+                return;
+            }
+            alert("Payment screenshot uploaded successfully!");
+            // Add code here to send the file to the server for verification
+        });
+    </script>
+</body>
+</html>
